@@ -1,0 +1,10 @@
+.btn-home-div {
+  padding-right: 130px;
+}
+.btn-home-div .btn-home {
+  scale: 1.9;
+  cursor: pointer;
+}
+.btn-home-div .btn-home:hover {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
