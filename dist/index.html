@@ -32,7 +32,13 @@
                 </form>
         
                 <div class="text-end">
-                  <button type="button" class="btn btn-outline-light me-2">Login</button>
+                  <button type="button" class="btn btn-outline-light me-2">
+                    Login
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-box-arrow-right ms-3" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                      <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                    </svg>
+                  </button>
                   <button type="button" class="btn btn-warning">Cadastre-se</button>
                 </div>
               </div>
@@ -57,7 +63,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-hearts me-5" viewBox="0 0 16 16">
                           <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"/>
                         </svg>
-                        Produtos de beleza
+                        Produtos de beleza e limpeza
                       </button>
                       <button type="button" class="btn btn-dark d-block my-3 text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-tv me-5" viewBox="0 0 16 16">
@@ -106,9 +112,39 @@
                     </div>
                   </div>
             </section>
-            <section>
-
-            </section>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active div-imagem-carrossel">
+                  <img src="./img/imagem-sacolas.jfif" class="d-block w-100 imagem-carrossel img-produtos-limpeza" alt="...">
+                  <div class="carousel-caption d-none d-md-block carrossel-text">
+                    <h5>Produtos de todos os tipos no melhor preço</h5>
+                    <p>OS melhores produtos e os melhores vendedores voc~e encontra aqui na Alura Bahia</p>
+                  </div>
+                </div>
+                <div class="carousel-item div-imagem-carrossel">
+                  <img src="./img/imagem-limpeza.jfif" class="d-block w-100 imagem-carrossel" alt="...">
+                  <div class="carousel-caption d-none d-md-block carrossel-text">
+                    <h5>Produtos de limpeza com 50% DE DESCONTO!!!</h5>
+                    <p>Os produtos de limpeza estão com 50% de desconto. OS produtos de limpeza estão na seção de produtos de beleza e limpeza</p>
+                  </div>
+                </div>
+                <div class="carousel-item div-imagem-carrossel">
+                  <img src="./img/imagem-caixa-papelao.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+                  <div class="carousel-caption d-none d-md-block carrossel-text">
+                    <h5>Enviado na velocidade da luz para você!</h5>
+                    <p>Escolha os produtos com selo do site para uma entrega rápida e segura!</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
         </main>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

@@ -26,4 +26,15 @@
 }
 .suas-compras .filtro .form-check {
   margin: 10px 0;
+}
+
+.carousel .div-imagem-carrossel .imagem-carrossel {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+.carousel .carrossel-text {
+  background: linear-gradient(45deg, rgb(255, 187, 0), yellow, lightyellow);
+  border-radius: 10px;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
